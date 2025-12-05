@@ -36,3 +36,24 @@ Password: meo
 lan/bridge-mode/config --enable=enable
 lan/bridge-mode/show
 ```
+
+## 4. Install UniFi OS Server
+
+<https://ui.com/download>
+
+## 5. Setup VLANs
+
+| VLAN | Nome        | Sub-rede         | Uso                        | Dispositivos                     |
+|------|-------------|------------------|-----------------------------|----------------------------------|
+| 1    | Default     | 192.168.1.x      | Infraestrutura (sem Wi-Fi) | Router, Switch, AP               |
+| 2    | Home        | 192.168.2.x      | Dispositivos pessoais      | iPhones, Laptops, Desktop, PS5, TV Box, Smart TV, Impressora |
+| 3    | IoT         | 192.168.3.x      | Equipamentos inteligentes  | Echo Dot (Alexa)                 |
+| 99   | Guest       | 192.168.99.x     | Rede de convidados         | Dispositivos de visita           |
+
+## 6. Setup WiFi Networks
+
+## 7. Configure Switchports
+
+## 8. Advanced Security Options
+
+## 9. Zone-based FW Rules
