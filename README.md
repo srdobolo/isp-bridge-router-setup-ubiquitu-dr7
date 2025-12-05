@@ -52,6 +52,12 @@ lan/bridge-mode/show
 
 ## 6. Setup WiFi Networks
 
+| Nome        | WiFi Band                 | VLAN | Settings                                                              | Dispositivos                     |
+|-------------|---------------------------|------|-----------------------------------------------------------------------|----------------------------------|
+| HomeWifi    | 2.4 GHz, 5 GHz, 6 GHz     | 2    | Band Steering, BSS Transition, Fast Roaming                           | iPhones, Laptops, Desktop, PS5, TV Box, Smart TV, Impressora |
+| IoTWiFi     | 2.4 GHz, 5 GHz, 6 GHz     | 3    | -                                                                      | Echo Dot (Alexa)                |
+| GuestWiFi   | 2.4 GHz, 5 GHz, 6 GHz     | 99   | Band Steering, BSS Transition, Fast Roaming, Client Device Isolation  | Dispositivos de visita           |
+
 ## 7. Configure Switchports
 
 ## 8. Advanced Security Options
