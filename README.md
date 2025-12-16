@@ -37,9 +37,9 @@ lan/bridge-mode/config --enable=enable
 lan/bridge-mode/show
 ```
 
-## 4. Install UniFi OS Server
+## 4. Manage UniFi Network
 
-<https://ui.com/download>
+<[https://ui.com/download](https://unifi.ui.com/)>
 
 ## 5. Setup VLANs
 
